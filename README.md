@@ -1,4 +1,4 @@
-# anchor-css
+# anchor-css  [<img src="http://benschwarz.github.io/bower-badges/badge@2x.png" width="130" height="30">](http://sindresorhus.com/bower-components/#!/search/anchor-css)
 A tiny css ([styl -w](https://github.com/visionmedia/styl#styl1)) framework
 
 ## Installation

@@ -3,7 +3,7 @@ A tiny css ([styl -w](https://github.com/visionmedia/styl#styl1)) framework
 
 ## Installation
 With [bower](http://bower.io/) installed:
-````bower install````
+````bower install anchor-css````
 
 ## Directory structure
 ````

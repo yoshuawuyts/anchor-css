@@ -9,6 +9,8 @@ With [bower](http://bower.io/) installed:
 ````
 .
 ├── utilities			// helper classes
+│   ├── base
+│   ├── colors 
 │   ├── grid          
 │   └── media
 ├── micro				// atoms

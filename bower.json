@@ -3,5 +3,28 @@
   "dependencies": {
     "anchor-grid": "~0.1.0",
     "anchor-media": "~0.1.0"
-  }
+  },
+  "version": "0.0.1",
+  "homepage": "https://github.com/yoshuawuyts/anchor-css",
+  "authors": [
+    "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+  ],
+  "description": "A tiny css (styl -w) framework",
+  "main": "index.styl",
+  "keywords": [
+    "styl",
+    "framework",
+    "css",
+    "flexbox",
+    "flex"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "utilities",
+    "test",
+    "tests"
+  ]
 }

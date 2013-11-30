@@ -1,0 +1,7 @@
+{
+  "name": "anchor-css",
+  "dependencies": {
+    "anchor-grid": "~0.1.0",
+    "anchor-media": "~0.1.0"
+  }
+}

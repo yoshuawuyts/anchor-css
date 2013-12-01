@@ -1,9 +1,14 @@
 # anchor-css
-A tiny css ([styl -w](https://github.com/visionmedia/styl#styl1)) framework
+A tiny css ([styl -w](https://github.com/visionmedia/styl#styl1)) boilerplate
 
-## Installation
-With [bower](http://bower.io/) installed:
-````bower install anchor-css````
+## Features
+- Flexbox centric
+- Sensible defaults only
+- Roles > class selectors
+- Built for today's browsers
+
+## About selectors
+There's no such thing as a semantic class, roles are the only way to convey context. If you use roles as selectors you get screen reader support for free. Classes are only used as modifiers or to style non-visible elements (e.g. grids). I have no idea what an ID is.
 
 ## Directory structure
 ````

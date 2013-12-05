@@ -1,112 +1,76 @@
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12,
-.offset-1,
-.offset-2,
-.offset-3,
-.offset-4,
-.offset-5,
-.offset-6,
-.offset-7,
-.offset-8,
-.offset-9,
-.offset-10,
-.offset-11,
-.col-auto 
+.size1of8, 
+.size1of4, .size2of8,
+.size1of3, .size3of8,
+.size3of8,
+.size1of2, .size2of4, .size4of8,
+.size5of8,
+.size2of3,
+.size3of4, .size6of8,
+.size7of8,
+.size1of1, .size2of2, .size3of3, .size4of4, .size8of8
   box-sizing: border-box
-  padding-left: 1rem
-  padding-right: 1rem
+  padding-left: 2.5rem
+  padding-right: 2.5rem
+  margin-bottom: 0
+  margin-top: 0
 
-.row 
+// these rows were made for nesting
+.row
   box-sizing: border-box
   display: flex
   flex-wrap: wrap
-  margin-left: -1rem
-  margin-right: -1rem
+  margin: 0 -2.5rem 0 -2.5rem
 
-// responsive columns
+// 960px or more
+@media all and (min-width: 960px)
+  .size1of8
+    width: 12.5%
+  .size1of4, .size2of8
+    width: 25%
+  .size1of3
+    width: 33.333%
+  .size3of8
+    width: 37.5%
+  .size1of2, .size2of4, .size4of8
+    width: 50%
+  .size5of8
+    width: 62.5%
+  .size2of3
+    width: 66.67%
+  .size3of4, .size6of8
+    width: 75%
+  .size7of8
+    width: 87.5%
+  .size1of1, .size2of2, .size3of3, .size4of4, .size8of8
+    width:100%
 
-.col-1 
-  flex-basis: 8.333333333333334%
+// between 640px and 960px
+@media all and (min-width: 641px) and (max-width: 959px)
+  .size1of8
+    width: 25%
+  .size1of2, .size2of4, .size4of8
+    width: 50%
+  .size1of4, .size2of8,
+  .size1of3, .size3of8,
+  .size3of8,
+  .size5of8,
+  .size2of3,
+  .size3of4, .size6of8,
+  .size7of8,
+  .size1of1, .size2of2, .size3of3, .size4of4, .size8of8
+    width: 100%
 
-.col-2 
-  flex-basis: 16.666666666666668%
-
-.col-3 
-  flex-basis: 25%
-
-.col-4 
-  flex-basis: 33.333333333333336%
-
-.col-5 
-  flex-basis: 41.66666666666667%
-
-.col-6 
-  flex-basis: 50%
-
-.col-7 
-  flex-basis: 58.333333333333336%
-
-.col-8 
-  flex-basis: 66.66666666666667%
-
-.col-9 
-  flex-basis: 75%
-
-.col-10 
-  flex-basis: 83.33333333333334%
-
-.col-11 
-  flex-basis: 91.66666666666667%
-
-.col-12 
-  flex-basis: 100%
-
-// offsets
-
-.offset-1 
-  margin-left: 8.333333333333334%
-
-.offset-2 
-  margin-left: 16.666666666666668%
-
-.offset-3 
-  margin-left: 25%
-
-.offset-4 
-  margin-left: 33.333333333333336%
-
-.offset-5 
-  margin-left: 41.66666666666667%
-
-.offset-6 
-  margin-left: 50%
-
-.offset-7 
-  margin-left: 58.333333333333336%
-
-.offset-8 
-  margin-left: 66.66666666666667%
-
-.offset-9 
-  margin-left: 75%
-
-.offset-10 
-  margin-left: 83.33333333333334%
-
-.offset-11 
-  margin-left: 91.66666666666667%
-
-// helper classes
-
-.col-auto 
-  flex: 1 1 0
+// 640 pixels or less
+@media all and (max-width: 640px)
+  .size1of8
+    width: 50%
+  .size1of4, .size2of8,
+  .size1of3, .size3of8,
+  .size3of8,
+  .size5of8,
+  .size1of2, .size2of4, .size4of8,
+  .size2of3,
+  .size3of4, .size6of8,
+  .size7of8,
+  .size1of1, .size2of2, .size3of3, .size4of4, .size8of8
+    width: 100%

@@ -1,0 +1,29 @@
+{
+  "name": "anchor-css",
+  "version": "0.0.0",
+  "description": "A tiny css boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoshuawuyts/anchor-css"
+  },
+  "author": "Yoshua Wuyts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshuawuyts/anchor-css/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-autoprefixer": "~0.4.1",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-csso": "~0.5.0",
+    "grunt-release": "~0.6.0",
+    "grunt-styl": "~0.3.1",
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0"
+  }
+}

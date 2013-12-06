@@ -2,11 +2,11 @@
 
 module.exports = {
 
-  'css': {
+  'styles': {
     files: [
-      'assets/styles{/, /**/, /**/**/}*.styl'
+      './**/*.styl'
     ],
-    tasks: ['css', 'clean:after'],
+    tasks: ['styles', 'clean:after'],
   },
 
   'jade': {

@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     autoprefixer: require('./grunt/autoprefixer'),
+    clean: require('./grunt/clean'),
     concat: require('./grunt/concat'),
     csslint: require('./grunt/csslint'),
     csso: require('./grunt/csso'),
@@ -26,6 +27,9 @@ module.exports = function (grunt) {
 
   // Build, lint, test and server
   grunt.registerTask('default', [
-    'styles'
+    'clean:before',
+    'styles', 
+    'clean:after',
+    'watch:styles'
   ]);
 };

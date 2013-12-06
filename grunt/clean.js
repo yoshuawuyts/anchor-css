@@ -5,7 +5,7 @@ module.exports = {
     files: [{
       dot: true,
       src: [
-        '.build',
+        'build',
         '.tmp'
       ],
     }, ],

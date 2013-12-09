@@ -10,8 +10,8 @@ module.exports = {
     files: [{
       src: [
         './utilities/*.styl',
-        '.tmp/styl/*.styl',
-        './micro/*.styl'
+        './micro/*.styl',
+        './macro/*.styl',
       ],
       dest: '.tmp/concat.styl',
     }]

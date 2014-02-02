@@ -1,9 +1,13 @@
-// vertical nav
-nav
-  display: flex
-  flex-direction: column
+/**
+ * Vertical nav
+ */
 
-nav > div
-  height: 60px
-  margin-bottom: 6px
-  background-color: blue
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav > div {
+  height: 60px;
+  margin-bottom: 6px;
+  background-color: #00f;
+}

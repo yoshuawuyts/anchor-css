@@ -1,0 +1,13 @@
+{
+  "name": "anchor-css",
+  "version": "0.1.0",
+  "main": "index.css",
+  "ignore": [
+    "package.json",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.0",
+    "reset-css": "~2.0.20110126"
+  }
+}

@@ -1,19 +1,36 @@
-@import 'utilities/base'
-@import 'utilities/colors'
-@import 'utilities/grid'
-@import 'utilities/position'
-@import 'utilities/media'
+/**
+ * Base
+ */
 
-@import 'micro/animations'
-@import 'micro/buttons'
-@import 'micro/forms'
-@import 'micro/images'
-@import 'micro/navigation'
-@import 'micro/progress'
-@import 'micro/tables'
-@import 'micro/typography'
+@import "./client/vendor/normalize-css/normalize";
+@import "./client/vendor/reset-css/reset";
+@import "./client/styles/utilities/base";
 
-@import 'macro/dialogs'
-@import 'macro/feedback'
+/**
+ * Utilities
+ */
 
-// import widgets
+@import "./client/styles/utilities/position";
+@import "./client/styles/utilities/colors";
+@import "./client/styles/utilities/media";
+@import "./client/styles/utilities/grid";
+
+/**
+ * Micro
+ */
+
+@import "./client/micro/animations";
+@import "./client/micro/buttons";
+@import "./client/micro/forms";
+@import "./client/micro/images";
+@import "./client/micro/navigation";
+@import "./client/micro/progress";
+@import "./client/micro/tables";
+@import "./client/micro/typography";
+
+/**
+ * Macro
+ */
+
+@import "./client/macro/dialogs";
+@import "./client/macro/feedback";

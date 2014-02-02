@@ -16,5 +16,6 @@
     "url": "https://github.com/yoshuawuyts/anchor-css/issues"
   },
   "devDependencies": {
+    "centurion": "*"
   }
 }

@@ -16,6 +16,8 @@
     "url": "https://github.com/yoshuawuyts/anchor-css/issues"
   },
   "devDependencies": {
-    "centurion": "*"
+    "centurion": "*",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.0"
   }
 }

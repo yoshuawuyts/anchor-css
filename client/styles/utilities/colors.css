@@ -1,0 +1,97 @@
+.shade1,
+.black{
+  color: hsl(0, 0%, 7%);
+}
+.shade2{
+  color: hsl(0, 0%, 20%);
+}
+.shade3{
+  color: hsl(0, 0%, 33%);
+}
+.shade4{
+  color: hsl(0, 0%, 47%);
+}
+.shade5{
+  color: hsl(0, 0%, 60%);
+}
+.shade6{
+  color: hsl(0, 0%, 74%);
+}
+.shade7{
+  color: hsl(0, 0%, 87%);
+}
+.shade8,
+.white{
+  color: hsl(0, 0%, 100%);
+}
+
+.bgshade1,
+.bgblack{
+  background-color: hsl(0, 0%, 7%);
+}
+.bgshade2{
+  background-color: hsl(0, 0%, 20%);
+}
+.bgshade3{
+  background-color: hsl(0, 0%, 33%);
+}
+.bgshade4{
+  background-color: hsl(0, 0%, 47%);
+}
+.bgshade5{
+  background-color: hsl(0, 0%, 60%);
+}
+.bgshade6{
+  background-color: hsl(0, 0%, 74%);
+}
+.bgshade7{
+  background-color: hsl(0, 0%, 87%);
+}
+.bgshade8,
+.bgwhite{
+  background-color: hsl(0, 0%, 100%);
+}
+
+.red{
+  color: hsl(3, 100%, 61%);
+}
+.orange{
+  color: hsl(28, 100%, 55%);
+}
+.yellow{
+  color: hsl(52, 100%, 50%);
+}
+.green{
+  color: hsl(127, 63%, 49%);
+}
+.aqua{
+  color: hsl(197, 100%, 75%);
+}
+.blue{
+  color: hsl(208, 100%, 43%);
+}
+.purple{
+  color: hsl(292, 88%, 42%);
+}
+
+.bgred{
+  background-color: hsl(3, 100%, 61%);
+}
+.bgorange{
+  background-color: hsl(28, 100%, 55%);
+}
+.bgyellow{
+  background-color: hsl(52, 100%, 50%);
+}
+.bggreen{
+  background-color: hsl(127, 63%, 49%);
+}
+.bgaqua{
+  background-color: hsl(197, 100%, 75%);
+}
+.bgblue{
+  background-color: hsl(208, 100%, 43%);
+}
+.bgpurple{
+  background-color: hsl(292, 88%, 42%);
+}

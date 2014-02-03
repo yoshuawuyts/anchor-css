@@ -1,0 +1,11 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+  background-color: #00f;
+}
+.media-figure {
+  margin-right: 1em;
+}
+.media-body {
+  flex: 1;
+}

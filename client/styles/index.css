@@ -19,18 +19,18 @@
  * Micro
  */
 
-@import "./client/micro/animations";
-@import "./client/micro/buttons";
-@import "./client/micro/forms";
-@import "./client/micro/images";
-@import "./client/micro/navigation";
-@import "./client/micro/progress";
-@import "./client/micro/tables";
-@import "./client/micro/typography";
+@import "./client/styles/micro/animations";
+@import "./client/styles/micro/buttons";
+@import "./client/styles/micro/forms";
+@import "./client/styles/micro/images";
+@import "./client/styles/micro/navigation";
+@import "./client/styles/micro/progress";
+@import "./client/styles/micro/tables";
+@import "./client/styles/micro/typography";
 
 /**
  * Macro
  */
 
-@import "./client/macro/dialogs";
-@import "./client/macro/feedback";
+@import "./client/styles/macro/dialogs";
+@import "./client/styles/macro/feedback";

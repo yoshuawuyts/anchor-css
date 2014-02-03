@@ -1,11 +1,19 @@
-# anchor-css
-A tiny css ([styl -w](https://github.com/visionmedia/styl#styl1)) boilerplate
+# [anchor-css](https://github.com/yoshuawuyts/anchor-css)
+A tiny css boilerplate
+
+## Installation
+````
+git clone https://github.com/yoshuawuyts/anchor-css
+npm install
+gulp styles
+````
 
 ## Features
 - Flexbox centric
 - Sensible defaults only
 - Roles > class selectors
 - Built for today's browsers
+- <10 kb
 
 ## About selectors
 There's no such thing as a semantic class, roles are the only way to convey context. If you use roles as selectors you get screen reader support for free. Classes are only used as modifiers or to style non-visible elements (e.g. grids). I have no idea what an ID is.

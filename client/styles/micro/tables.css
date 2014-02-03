@@ -1,0 +1,9 @@
+tr {
+  display: flex;
+  flex-direction: row;
+}
+@media all and (max-width: 699px) {
+  tr {
+    flex-direction: column;
+  }
+}

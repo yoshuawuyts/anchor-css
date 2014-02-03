@@ -1,6 +1,6 @@
 {
   "name": "anchor-css",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A tiny css boilerplate",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,10 @@
     "url": "https://github.com/yoshuawuyts/anchor-css/issues"
   },
   "devDependencies": {
+    "centurion": "*",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.0",
+    "mocha": "~1.17.0",
+    "should": "~3.1.0"
   }
 }

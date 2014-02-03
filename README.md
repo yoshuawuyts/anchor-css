@@ -1,4 +1,4 @@
-# [anchor-css](https://github.com/yoshuawuyts/anchor-css)
+# [anchor-css](http://yoshuawuyts.github.io/anchor-css)
 A tiny css boilerplate
 
 ## Installation

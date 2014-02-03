@@ -1,6 +1,6 @@
 {
   "name": "anchor-css",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A tiny css boilerplate",
   "main": "index.js",
   "scripts": {
